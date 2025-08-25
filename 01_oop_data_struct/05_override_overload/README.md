@@ -1,6 +1,7 @@
 Override vs Overload
 ====================
 **Overloading** and **overriding** are distinct concepts related to polymorphism, but they apply in different contexts.  
+  
 Overloading
 -----------
 **Overloading** involves defining multiple functions (or operators) with the same name within the same scope (e.g., within the same class or namespace), but with different parameter lists (different number of parameters or different types of parameters).
@@ -16,7 +17,7 @@ Overloading
     sum(int x, int y);
     sum(double x, double y)
     ```
-
+  
 Overriding
 ----------
 **Overriding** occurs in the context of inheritance, where a derived class provides its own specific implementation for a virtual function that is already defined in its base class.  
