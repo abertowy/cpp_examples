@@ -7,6 +7,7 @@ The term **"polymorphism"** literally means "many forms."
 Compile-Time Polymorphism (Static Polymorphism)
 -----------------------------------------------
 Achieved during compilation.  
+
 **Function Overloading**  
 Defining multiple functions with the same name but different parameters (number, type, or order of arguments) within the same scope.  
 The compiler determines which function to call based on the arguments provided during the function call.  
@@ -16,18 +17,20 @@ Enabling operators (like +, -, *, /) to perform different operations depending o
 Run-Time Polymorphism (Dynamic Polymorphism)
 -----------------------------------------------
 Achieved during program execution.  
+
 **Function Overriding (Virtual Functions)**  
 This is the most common form of run-time polymorphism in C++. It involves a base class and one or more derived classes.  
-A virtual function is declared in the base class.  
-Derived classes can provide their own specific implementations (override) of this virtual function.  
+A **virtual function** is declared in the base class.  
+Derived classes can provide their own specific implementations (override) of this **virtual function**.  
 When a pointer or reference to the base class points to an object of a derived class,
-calling the virtual function through that base class pointer/reference will execute the derived class's overridden version of the function at runtime.  
-This is achieved through a mechanism called the virtual table (vtable).
+calling the **virtual function** through that base class pointer/reference will execute the derived class's **overridden** version of the function at runtime.  
+This is achieved through a mechanism called the **virtual table (vtable)**.
 
 Inheritance
 -----------
 **Polymorphism**:  
 Relies heavily on inheritance, where derived classes inherit from a base class, establishing an "is-a" relationship (e.g., a Square is a Rectangle).  
+
 **Virtual Functions**:  
 Essential for run-time polymorphism, allowing dynamic dispatch of function calls based on the actual type of the object pointed to by a base class pointer or reference.
 
