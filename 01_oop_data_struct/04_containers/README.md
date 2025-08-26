@@ -91,3 +91,12 @@ Hash Maps
 **A hash map** (also known as a hash table or **dictionary**) is an associative data structure that stores key-value pairs. It uses a hash function to map keys to indices in an array, providing fast average-case time complexity for insertions, deletions, and lookups.  
   
 C++ STL: std::unordered_map provides a hash map implementation. It does not maintain any specific order of elements. For ordered key-value pairs, std::map (based on balanced binary search trees) is used.  
+
+Iterator invalidation
+---------------------
+
+![iterator invalidation](iterator_invalidation.png)
+
+C++ Standard Template Library Quick Reference
+---------------------------------------------
+https://alyssaq.github.io/stl-complexities/
